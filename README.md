@@ -1,20 +1,7 @@
-megastore-api/
-│
-├── src/
-│   ├── config/
-│   ├── controllers/
-│   ├── routes/
-│   ├── services/
-│   ├── migrations/
-│   └── utils/
-│
-├── docs/
-│   ├── ERD.png
-│   ├── collections.png
-│   ├── sample_data.csv
-│   ├── sql_schema.sql
-│   └── mongo_validation.js
-│
-├── .env
-├── README.md
-└── package.json
+sudo systemctl start postgresql
+
+sudo systemctl status postgresql
+
+sudo -u postgres psql
+
+ALTER USER alejandro WITH PASSWORD 'nueva_contraseña';
